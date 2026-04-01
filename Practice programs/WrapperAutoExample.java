@@ -3,18 +3,18 @@ public static void main (String[] args) {
 
 //autoboxing
 
-int a = 10;
-Integer i = a; //manual approach
-// Integer i = Interger.valueOf(a); //compiler approach
+long a = 9876543L;
+Long i = a; //manual approach
+// Long i = Long.valueOf(a); //compiler approach
 
 System.out.println("Value: "+i);
 
 //Unboxing
 
 
-Integer b = 120;
-int m = b;  //manual approach
-// int m = b.intValue(); //compiler approach
+Long b = 123456780L;
+long m = b;  //manual approach
+// long m = b.longValue(); //compiler approach
 System.out.println("Unboxing: "+m);
 }
 }
